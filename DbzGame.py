@@ -1,4 +1,4 @@
-from Fighters import vegeta
+from arguments import vegeta
 from Functions import quest
 quest(vegeta.name, vegeta.show)
 

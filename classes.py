@@ -8,13 +8,13 @@ class zFighter():
 
 class parameter():
 # This line is to set the constant variables
-  def __init__(self, userAttempt, userScore, guessLimit):
-    self.userAttempt = userAttempt
-    self.userScore = userScore
+  def __init__(self, attempt, score, guessLimit):
+    self.attempt = attempt
+    self.score = score
     self.guessLimit = guessLimit
 #This func is to add to the score
   def myScore(self):
-    self.userScore += 2
-#This func is to add to the guesslimit    
-  def myAttempts(self):
-    self.userAttempt += 1
+    self.score += 2
+#This func is to add to the userAtempts    
+  def myAttempt(self):
+    self.attempt += 1
