@@ -14,5 +14,9 @@ chichi = zFighter("Chi-Chi", "Db", True)
 oolong = zFighter("Oolong", "Db", False)
 A8 = zFighter("Android 8", "Db", False)
 
-#These are the player's basic arguments 
+#These are the player's basic arguments; user attempts, score, guess limit
 playerargs = parameter(0,0,4)
+
+dict = {"vegeta": (vegeta.name, vegeta.show)}
+
+print(dict["vegeta"])
