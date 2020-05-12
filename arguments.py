@@ -17,6 +17,6 @@ A8 = zFighter("Android 8", "Db", False)
 #These are the player's basic arguments; user attempts, score, guess limit
 playerargs = parameter(0,0,4)
 
-dict = {"vegeta": (vegeta.name, vegeta.show)}
+vg = vegeta.name, vegeta.show
 
-print(dict["vegeta"])
+print(print(vg))
