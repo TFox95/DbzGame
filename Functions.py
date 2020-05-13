@@ -1,21 +1,25 @@
-from arguments import playerargs, vegeta , goku, dict
+from arguments import playerargs , vegeta , goku, characters
+from classes import zFighter
 
 #This is the guessing game
-def quest(name, shows):
+def quest(names):
     while playerargs.attempt != playerargs.guessLimit:
         validQuestion = False
+
 #so while this boolean is flase it will keep asking a question
         if validQuestion != True:
-            print("When was {} introduced? Db/Dbz/Dbs:\n".format(name))
+            print("When was {} introduced? Db/Dbz/Dbs:\n".format(names.name))
             guess = input("What will be your answer?: ").capitalize()
-            playerargs.myAttempt()
+            playerargs.raiseGuess()
+
 # After the user answer the following code will run and check if it's right.
-            if guess == shows:
+            if guess == names.show:
                 validQuestion = True
-                playerargs.myScore()
+                playerargs.raiseScore()
                 break
+
 #If it isn't right this code will run instead
-            if guess != shows:
+            if guess != names.show:
                 validQuestion = True
                 print("incorrect buddy")
                 break

@@ -1,5 +1,4 @@
-from arguments import vegeta
-from Functions import quest
-quest(vegeta.name, vegeta.show)
+from arguments import pychoose
+from Functions import quest, scoreTotal
 
 

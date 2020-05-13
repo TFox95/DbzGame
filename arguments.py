@@ -1,22 +1,50 @@
 from classes import parameter, zFighter
+import random
+
 #These are the character breakdowns
 vegeta = zFighter("Vegeta", "Dbz", True)
 goku = zFighter("Goku", "Db", True)
 krillin = zFighter("Krillin", "Db", True)
+
+#These are newly imported Db Characters
 bulma = zFighter("Bulma", "Db", False)
-piccolo = zFighter("piccolo", "Db", True)
-nappa = zFighter("nappa", "Dbz", True)
-bulla = zFighter("bulla", "Dbs", False)
-beerus = zFighter("Beerus", "Dbs", True)
-roshi = zFighter("Master Roshi", "Db", True)
 korrin = zFighter("Korin", "Db", True)
 chichi = zFighter("Chi-Chi", "Db", True)
 oolong = zFighter("Oolong", "Db", False)
 A8 = zFighter("Android 8", "Db", False)
+piccolo = zFighter("piccolo", "Db", True)
+roshi = zFighter("Master Roshi", "Db", True)
+
+#Newly imoported Dbz Characters
+nappa = zFighter("nappa", "Dbz", True)
+futureTrunks = zFighter("Future Trunks","Dbz", True)
+raddiz = zFighter("Raddiz", "Dbz", True)
+cell = zFighter("Cell","Dbz", True)
+vegito = zFighter("Vegito","Dbz", True)
+frieza = zFighter("Frieza","Dbz", True)
+broly = zFighter("Broly", "Dbz", True) 
+
+#Newly imported Dbs Characters
+bulla = zFighter("bulla", "Dbs", False)
+beerus = zFighter("Beerus", "Dbs", True)
+frost = zFighter("Frost", "Dbs", True)
+hit = zFighter("Hit","Dbs",True)
+jiren = zFighter("Jiren","Dbs",True)
+zamatsu = zFighter("Zamtsu","Dbs",True)
+zeno = zFighter("Lord Zeno","Dbs",False)
+vados = zFighter("Vados","Dbs",True)
+choompa = zFighter("Choompa","Dbs",True)
+
+
+
+
 
 #These are the player's basic arguments; user attempts, score, guess limit
 playerargs = parameter(0,0,4)
 
-vg = vegeta.name, vegeta.show
+#This is a list of the created charcter breakdowns
 
-print(print(vg))
+#This is a list of newly created characters
+
+
+#This is the random module selecting characters from the above list
