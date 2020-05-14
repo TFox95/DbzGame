@@ -1,5 +1,6 @@
-from arguments import playerargs , vegeta , goku, characters
+from arguments import playerargs
 from classes import zFighter
+import random
 
 #This is the guessing game
 def quest(names):
@@ -20,9 +21,8 @@ def quest(names):
 
 #If it isn't right this code will run instead
             if guess != names.show:
-                validQuestion = True
+                validQuestion = False
                 print("incorrect buddy")
-                break
 
 #Depending on the points gathered during the game this will the final message
 def scoreTotal():
@@ -34,3 +34,7 @@ def scoreTotal():
         print("ahh you can do better")
     else:
         print("you failed me")
+
+def Game(first, second, third):
+    questions = [quest(first), quest(second), quest(third)]
+    random.shuffle(questions)
