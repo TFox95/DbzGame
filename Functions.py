@@ -35,6 +35,10 @@ def scoreTotal():
     else:
         print("you failed me")
 
+# This is the Function to shufle the game.
 def Game(first, second, third):
-    questions = [quest(first), quest(second), quest(third)]
+    questions = [quest(random.choice([first,second,third])),
+    quest(random.choice([first,second,third])),
+    quest(random.choice([first,second,third]))]
+
     random.shuffle(questions)
