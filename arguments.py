@@ -54,3 +54,4 @@ hit, jiren, zamatsu,
 zeno, vados, chompa,])
 
 #This is the random module selecting characters from the above lists
+lst = [pydb, pydbz,pydbs]

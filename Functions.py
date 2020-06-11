@@ -1,6 +1,8 @@
-from arguments import playerargs
+from arguments import playerargs, pydb, pydbz, pydbs
 from classes import zFighter
 import random
+
+lst = [pydb, pydbz, pydbs]
 
 #This is the guessing game
 def quest(names):
@@ -42,3 +44,13 @@ def Game(first, second, third):
     quest(random.choice([first,second,third]))]
 
     random.shuffle(questions)
+
+#This code is supposed to stop the game from producing duplicate questions
+    if first == pydb or pydbz or pydbs:
+        lst.remove(first)
+
+        if second == pydb or pydbz or pydbs:
+            lst.remove(second)
+
+            if third == pydb or pydbz or pydbs:
+                lst.remove(third)
