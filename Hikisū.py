@@ -1,4 +1,4 @@
-from classes import parameter, zFighter
+from Kurasu import parameter, zFighter
 import random
 
 #These are the character breakdowns

@@ -1,5 +1,5 @@
-from arguments import playerargs, pydb, pydbz, pydbs
-from classes import zFighter
+from Hikisū import playerargs, pydb, pydbz, pydbs
+from Kurasu import zFighter
 import random
 
 lst = [pydb, pydbz, pydbs]
