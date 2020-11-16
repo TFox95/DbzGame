@@ -1,4 +1,4 @@
-from Hikisū import playerargs, pydb, pydbz, pydbs
+from Hikisu import playerargs, pydb, pydbz, pydbs
 from Kurasu import zFighter
 import random
 
