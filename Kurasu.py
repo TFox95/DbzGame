@@ -1,10 +1,12 @@
 #This is the created datatype of a Dragonball Character
 class zFighter():
     
-    def __init__(self, name, show, isAFighter):
+    def __init__(self, name, show, isAFighter, story):
         self.name = name
         self.show = show
         self.isAFighter = isAFighter
+        self.story = story
+
 
 #This is the parameter inprint that the program will run by 
 class parameter():

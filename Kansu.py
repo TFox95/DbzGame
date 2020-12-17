@@ -26,7 +26,7 @@ def quest(names):
                 validQuestion = False
                 print("incorrect buddy")
 
-#Depending on the points gathered during the game this will the final message
+#Depending on the points gathered during the game this will be the final message
 def scoreTotal():
     if playerargs.score == 6:
         print("Congratulations, Your a DbGenuis!")
